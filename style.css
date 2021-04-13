@@ -31,6 +31,11 @@ nav{
     align-items: center;
 }
 
+.logo img{
+    width: 19%;
+    height: 100%;
+}
+
 .logo p{
     color: white;
     font-size: 80px;
@@ -59,30 +64,23 @@ nav{
     color: white;
     text-decoration: none;
 }
-
+.navlist li{
+    transition: all 0.1s ease-in ;
+}
+.navlist li:hover{
+    font-weight: 600;
+    transform: scale(1.1);
+}
 .circle-top{
-    position: absolute;
     height: 300px;
     width: 300px;
-    right: 5%;
-    top: 10%;
+    margin: -4% 3% auto auto;
     border-radius: 100%;
     background: linear-gradient(217.72deg, #CD16BB 14.07%, rgba(255, 255, 255, 0) 91.11%),
     linear-gradient(0deg, #7646FF, #7646FF);
-    z-index: -1;
 }
 
-.triangle{
-    position: absolute;
-    height: 330px;
-    width: 258px;
-    left: 7%;
-    top: 175.5px;
-    border-radius: 25px;
-    background: linear-gradient(180deg, #FFC046 0%, rgba(255, 255, 255, 0) 100%),
-    linear-gradient(0deg, #CD3B0D, #CD3B0D);
-    transform: rotate(-18.77deg);    
-}
+
 
 .circle-bottom{
     position: absolute;
@@ -93,6 +91,10 @@ nav{
     border-radius: 100%;
     background: linear-gradient(217.72deg, #CD16BB 14.07%, rgba(255, 255, 255, 0) 91.11%),
     linear-gradient(0deg, #7646FF, #7646FF);
-    z-index: -1;
+}
+
+.triangle{
+    position: absolute;
+    left: 3%;
 }
 
