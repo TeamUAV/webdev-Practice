@@ -5,8 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #2A2A2A;
-    
+    background: #2A2A2A;  
 }
 nav{
     position: sticky;
@@ -79,8 +78,6 @@ nav{
     background: linear-gradient(217.72deg, #CD16BB 14.07%, rgba(255, 255, 255, 0) 91.11%),
     linear-gradient(0deg, #7646FF, #7646FF);
 }
-
-
 
 .circle-bottom{
     position: absolute;
