@@ -1,0 +1,98 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2A2A2A;
+    
+}
+nav{
+    position: sticky;
+    top: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 24px -1px #000000 25% inset;
+    border: 2px solid white;
+    backdrop-filter: blur(30px);
+    z-index: 10;
+    height: 18vh;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo p{
+    color: white;
+    font-size: 80px;
+    font-weight: 600;
+}
+.vector{
+    height: 125.5px;
+    width: 0px;
+    left: 1279px;
+    top: 7px;
+    border: 1px solid white;
+}
+.navlist{
+    width: 40%;
+    align-self: flex-end;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.navlist ul{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navlist a{
+    color: white;
+    text-decoration: none;
+}
+
+.circle-top{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    right: 5%;
+    top: 10%;
+    border-radius: 100%;
+    background: linear-gradient(217.72deg, #CD16BB 14.07%, rgba(255, 255, 255, 0) 91.11%),
+    linear-gradient(0deg, #7646FF, #7646FF);
+    z-index: -1;
+}
+
+.triangle{
+    position: absolute;
+    height: 330px;
+    width: 258px;
+    left: 7%;
+    top: 175.5px;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #FFC046 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, #CD3B0D, #CD3B0D);
+    transform: rotate(-18.77deg);    
+}
+
+.circle-bottom{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    bottom: -20%;
+    left: 10%;
+    border-radius: 100%;
+    background: linear-gradient(217.72deg, #CD16BB 14.07%, rgba(255, 255, 255, 0) 91.11%),
+    linear-gradient(0deg, #7646FF, #7646FF);
+    z-index: -1;
+}
+
