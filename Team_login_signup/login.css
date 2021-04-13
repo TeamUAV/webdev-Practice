@@ -1,0 +1,227 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: center / cover no-repeat url("wallpaper.png") black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-box {
+    display: flex;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0) 100%), rgba(255, 255, 255, 0.4);
+    border: 2px solid #FFFFFF;
+    box-shadow: inset 0px 1px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(30px);
+    border-radius: 25px;
+    width: 30vw;
+    min-width: 500px;
+    height: 80vh;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-box .login-image-cont {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0vh 3vh 0vh;
+}
+
+.login-box .login-image-cont img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-box .login-input {
+    width: 70%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15vh;
+}
+
+.login-box .login-input form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login-box .login-input form input {
+    line-height: 1.5rem;
+    font-size: 1.25rem;
+    width: 80%;
+    margin: 1vh 0vh;
+}
+
+.login-box .login-input form button {
+    background-color: #ffcd46;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    padding: 0.5vh 2.5vh;
+    border-radius: 10px;
+}
+
+.login-box .login-footer {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.login-box .login-footer a {
+    text-decoration: none;
+    color: rgb(37, 221, 235);
+}
