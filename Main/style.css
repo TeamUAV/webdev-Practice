@@ -77,7 +77,7 @@ nav{
     width: 70%;
     height: 70vh;
     z-index: 10;
-    border: 1px solid white;
+    border: 2px solid rgba(255, 255, 255, 0.637);
     border-radius: 20px;
     display: flex;
     flex-direction: column;

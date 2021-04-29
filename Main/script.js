@@ -12,7 +12,7 @@ btn.addEventListener('click', (e) => {
     content.innerHTML = text;
     const nameTag = document.createElement('div');
     nameTag.classList.add('name-tag');
-    nameTag.innerHTML = "rajvi";
+    nameTag.innerHTML = "Team UAV";
     msgBubble.appendChild(content);
     msgBubble.appendChild(nameTag);
     msgDisplay.appendChild(msgBubble);
